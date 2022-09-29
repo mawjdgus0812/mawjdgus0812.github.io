@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [ICLR2018]ODIN
+title: ICLR2018-ODIN
 use_math: True
 ---
 
