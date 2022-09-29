@@ -33,7 +33,7 @@ Additional features are available in individual themes.
 
 ## math
 
-$P_x = \mathbf{AAAA}$
+$$P_x = \mathbf{AAAA}$$
 
 ## Browser support
 
