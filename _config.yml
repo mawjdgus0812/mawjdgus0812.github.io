@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Uncertainty
+url: https://mawjdgus0812.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Jeonghyeon Kim
+  url: https://github.com/mawjdgus0812
+  email: mawjdgus@gmail.com
 
 # Custom vars
 version: 3.0.0
