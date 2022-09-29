@@ -31,6 +31,10 @@ Poole is a streamlined Jekyll site designed and built as a foundation for buildi
 
 Additional features are available in individual themes.
 
+## math
+
+$P_x = \mathbf{AAAA}$
+
 ## Browser support
 
 Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.
