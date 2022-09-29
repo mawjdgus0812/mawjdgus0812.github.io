@@ -9,6 +9,9 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
 
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
