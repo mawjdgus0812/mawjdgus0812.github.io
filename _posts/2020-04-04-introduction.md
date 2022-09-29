@@ -36,7 +36,7 @@ Additional features are available in individual themes.
 
 $P_x = \mathbf{AAAA}$
 
-$$ P_x$$
+$$P_x$$
 
 
 ## Browser support
