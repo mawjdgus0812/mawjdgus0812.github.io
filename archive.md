@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Archive
+use_math: true
 ---
 
 # Archive
