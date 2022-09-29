@@ -1,11 +1,6 @@
 ---
 layout: post
 title: Introduction
-tags:
-  - Blog
-  - MathJax
-  - Jekyll
-  - LaTeX
 use_math: true
 ---
 
