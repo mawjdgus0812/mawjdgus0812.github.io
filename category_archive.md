@@ -1,5 +1,5 @@
 # category-archive.md
 ---
-title: "categories"
-layout: categories
+layout: default
+title: "Categories"
 ---
