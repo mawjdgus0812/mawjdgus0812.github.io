@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive
+title: Paper
 use_math: true
 ---
 
