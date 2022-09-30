@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive2
+title: Code
 use_math: true
 ---
 
