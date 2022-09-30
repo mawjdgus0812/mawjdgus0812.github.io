@@ -17,3 +17,6 @@ So this paper describes the effectiveness of non-parametric nearest-neighbor dis
 
 Then, what is the non-parametric nearest-neighbor distance ?
 
+See [K-NN](https://mawjdgus0812.github.io/2022/09/30/K-Nearest-Neighbors-Algorithm/)
+
+
