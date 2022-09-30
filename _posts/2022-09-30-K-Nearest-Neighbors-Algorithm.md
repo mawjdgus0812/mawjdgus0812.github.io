@@ -3,7 +3,9 @@ layout: post
 title: K-Nearest Neighbors Algorithm
 use_math: True
 ---
-Reference by https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4
+Reference by 
+
+https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4
 
 > KNN is a **non-parametric** and lazy learning algorithm. Non-parametric means there is no assumption for underlying data distribution.
 > In other words, the model structure determined from the dataset.
