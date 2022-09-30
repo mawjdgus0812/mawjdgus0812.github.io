@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post2
 title: ICLR2022-Out-of-Distribution Detection with Deep Nearest Neighbors
 use_math: True
 ---
