@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Paper review
+title: Archive
 use_math: true
 ---
 
-# Archive
+# Paper review
 
 Browse all posts by month and year.
 
