@@ -37,7 +37,7 @@ K=1 case is the simplest case.
 
 ### Distance Measures in K-NN
 
-There are maninly four distance measures in Machine LEarning Listed below.
+There are maninly four distance measures in Machine Learning Listed below.
 
 1. Euclidean Distance
 2. Manhattan Distance
