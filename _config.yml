@@ -41,13 +41,13 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Paper Review
+  - title: Paper
     url: /archive
 
   - title: About
     url: /about
   
-  - title: Code Review
+  - title: Code
     url: /archive2
     
 # Conversion
