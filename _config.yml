@@ -44,11 +44,11 @@ nav:
   - title: Paper
     url: /archive
 
-  - title: About
-    url: /about
-  
   - title: Code
     url: /archive2
+
+  - title: About
+    url: /about
     
 # Conversion
 markdown: kramdown
