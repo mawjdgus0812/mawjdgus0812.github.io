@@ -4,26 +4,26 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi I'm Jeonghyeon Kim!
 </p>
+- Email : mawjdgus@gmail.com
+- [GitHub](https://github.com/mawjdgus0812).
+- [BOJ](https://www.acmicpc.net/user/mawjdgus).
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Education
+### Bachelor of Science
 
-There are currently two themes built on Poole:
+Seoul National University of Science and Technology, Seoul, South Korea 2016-2022
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+Major : Industrial Information of System Engineering (GPA:4.25/4.5)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Double Major : Electrical Information Engineering (GPA:4.03/4.5)
 
-## Setup
 
-Some fun facts about the setup of this project include:
+## Research Interest
 
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+### Developing ML/DL Algorithms
+- Confidence calibration and uncertainty quantification of deep neural networks
+- Unknown unknowns detection: misclassification/out-of-distribution detection
 
 Thanks for reading!
