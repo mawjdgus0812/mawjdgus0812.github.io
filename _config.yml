@@ -46,6 +46,9 @@ nav:
 
   - title: Code
     url: /archive2
+    
+  - title: ML/DL
+    url: /archive3
 
   - title: About
     url: /about
