@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ICLR2018-Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+category: paper
 use_math: True
 ---
 
