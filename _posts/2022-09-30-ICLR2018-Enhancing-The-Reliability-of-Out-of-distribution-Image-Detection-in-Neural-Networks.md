@@ -38,7 +38,6 @@ $\mathbb{P}_{x\|z=1}=Q_x$
 > Temperatur Scaling. Assume that the neural network $\mathbf{f}=(f_1,...,f_N)$ is trained to classify $N$ classes. For each input $x$, the neural network assigns a label $\hat{y}(x)=argmax_iS_i(x;T)$ by computing the softmax output for each class. Specifically,
 
 $\displaystyle{S_i(x;T)={\exp{(f_i(x)/T)}\over{\Sigma^N_{j=1}\exp{(f_j(x)/T)}}}}$
-$ Px
 
 이러한 temperature scaling을 통해 저자들은 in- and out-of-distribution 이미지들 사이의 softmax score를 잘 분리함으로써 OoD detection을 진행합니다.
 
