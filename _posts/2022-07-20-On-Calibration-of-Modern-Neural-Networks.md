@@ -63,12 +63,12 @@ $acc(B_m) = conf(B_m)$ for all $m\in{\{1,...,M}\}$을 가진다.
 
 `miscalibration`의 하나는 Confidence와 Accuracy의 기대값의 차이를 나타내는 것이다.
 
-$\mathbb{E}_{\hat{P}}[|\mathbb{P}(\hat{Y}=Y|\hat{P}=p)-p|]$
+$\mathbb{E}_{\hat{P}}[\|\mathbb{P}(\hat{Y}=Y\|\hat{P}=p)-p\|]$
 
 
 ECE는 2번식을 M개의 같은 공간을 가지는 `bins`를 나누어 (reliability diagram과 비슷한 방법) 추정한다. 이 때, 각 `bins`에 해당하는 가중치를 곱해준다. (bins의 개수가 다르니)
 
-$\mathbf{ECE} = \Sigma^M_{m=1}{|B_m|\over{n}}|acc(B_m) - conf(B_m)|$
+$\mathbf{ECE} = \Sigma^M_{m=1}{\|B_m\|\over{n}}\|acc(B_m) - conf(B_m)\|$
 
 위 식이 ECE이며, n개의 샘플을통해 acc와 conf를 bin 단위로 gap을 구한다. 가장 맨위의 Figure 1의 빨간색 바들이 바로 이 `gap`이다. 이 지표는 Calibration을 측정하는데 있어서 매우 중요한 `metric`이다.
 
@@ -77,11 +77,11 @@ $\mathbf{ECE} = \Sigma^M_{m=1}{|B_m|\over{n}}|acc(B_m) - conf(B_m)|$
 
 높은 위험도를 가지고 있는 어플리케이션에서 confidence measures는 매우 중요하고, 우리는 최소한 `worst-case`에 해당하는 차이를 최소화 해야 한다. 
 
-$\max_{p\in[0,1]}|\mathbb{P}(\hat{Y}=Y|\hat{P}=p)-p|$
+$\max_{p\in[0,1]}\|\mathbb{P}(\hat{Y}=Y\|\hat{P}=p)-p\|$
 
 아까와 마찬가지로 모든 bins에 해당하는 값들의 최댓값을 구하면
 
-$\mathbf{MCE}=\max_{m\in\{1,...,M\}}|acc(B_m)-conf(B_m)$
+$\mathbf{MCE}=\max_{m\in\{1,...,M\}}\|acc(B_m)-conf(B_m)\|$
 
 이 두가지 `MCE`와 `ECE`를 reliability diagram에 표현할 수 있다. `MCE`는 빨간색 바들 중에서 가장 갭이 큰 바를 의미하고, `ECE`는 모든 빨간색 바들의 가중평균을 의미한다. 
 
@@ -89,9 +89,9 @@ $\mathbf{MCE}=\max_{m\in\{1,...,M\}}|acc(B_m)-conf(B_m)$
 
 **Negative log likelihood (NLL)**
 
-NLL은 확률 모델의 품질을 평가하는 표준적인 measure이다. deep learning에서는 Cross Entropy Loss로 알려져 있다. `probabilistic model` $\hat{\pi}(Y|X)$와 $n$샘플들이 주어졌을 때, NLL은 다음과 같다.
+NLL은 확률 모델의 품질을 평가하는 표준적인 measure이다. deep learning에서는 Cross Entropy Loss로 알려져 있다. `probabilistic model` $\hat{\pi}(Y\|X)$와 $n$샘플들이 주어졌을 때, NLL은 다음과 같다.
 
-$\mathcal{L}=-\Sigma^n_{i=1}\log(\hat{\pi}(y_i|\mathbf{x}_i))$
+$\mathcal{L}=-\Sigma^n_{i=1}\log(\hat{\pi}(y_i\|\mathbf{x}_i))$
 
 ****
 
