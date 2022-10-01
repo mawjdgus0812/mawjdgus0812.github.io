@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ICLR2022-Out-of-Distribution Detection with Deep Nearest Neighbors
+title: (ICLR2022) Out-of-Distribution Detection with Deep Nearest Neighbors
 category: paper
 use_math: True
 ---
