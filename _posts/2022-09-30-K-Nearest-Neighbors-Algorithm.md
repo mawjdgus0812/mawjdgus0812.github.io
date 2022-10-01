@@ -1,6 +1,6 @@
 ---
 layout: post
-title: K-Nearest Neighbors Algorithm
+title: (ML)K-Nearest Neighbors Algorithm
 category: ML/DL
 use_math: True
 ---
