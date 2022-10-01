@@ -19,14 +19,16 @@ _Hendrycks & Gimpel_은 이러한 문제(Detecting out-of-distribution)를 해�
 
 **PROBLEM STATEMENT**
 
-$P_\mathbf{x}$ : in-distribution
-$Q_\mathbf{x}$ : out-distribution
+$P_x$ : in-distribution
+$Q_x$ : out-distribution
 
-$\mathbb{P}_{\mathbf{x}\times{\mathbf{z}}}$ 
-$\mathbb{P}_\mathbf{x|z=0}=P_\mathbf{x}$
-$\mathbb{P}_\mathbf{x|z=1}=Q_\mathbf{x}$
+$\mathbb{P}_{x\times{z}}$ 
 
-> Given an image $X$ drawn from the mixture distribution $\mathbb{P}_\mathbf{x\times{z}}$, _can we distinguish whether the image is from in-distribution_ $P_\mathbf{x}$ _or not?_
+$\mathbb{P}_x\|z=0=P_x$
+
+$\mathbb{P}_x\|z=1=Q_x$
+
+> Given an image $X$ drawn from the mixture distribution $\mathbb{P}_x\times{z}$, _can we distinguish whether the image is from in-distribution_ $P_x$ _or not?_
 
 **Temperature scaling**
 ![](https://velog.velcdn.com/images/mawjdgus/post/e5780b09-c527-49f9-825c-9f6a1f520aba/image.png)
