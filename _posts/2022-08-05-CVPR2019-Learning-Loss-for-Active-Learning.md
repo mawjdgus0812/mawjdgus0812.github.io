@@ -50,7 +50,7 @@ Abstract에서 설명했던 것처럼 본 논문에서 제시하는 Active Learn
 
 이 때 얻은 `Labeled datset`을 $\mathcal{L}^0_K$를 통해 `initial target model`인 $\Theta^0_{target}$과 `initial loss prediction module` $\Theta^0_{loss}$를 학습시킨다.
 
-가장 첫번 째 학습이 끝난 뒤에, `Unlabeled pool`안에 존재하는 모든 데이터들에 대해 `loss prediction module`을 통해 평가를 진행한다. 이러한 평가는 `data-loss pairs`인 $\{(x,\hat{l})|x\in{\mathcal{U}^0_{N-K}}\}$를 얻기 위함이다. 
+가장 첫번 째 학습이 끝난 뒤에, `Unlabeled pool`안에 존재하는 모든 데이터들에 대해 `loss prediction module`을 통해 평가를 진행한다. 이러한 평가는 `data-loss pairs`인 $\{(x,\hat{l})\|x\in{\mathcal{U}^0_{N-K}}\}$를 얻기 위함이다. 
 
 이러한 샘플들의 loss를 `Figure 1-(a)`의 `Model`과 `Loss prediction module`을 통해 예측한다. 그리고 나서 
 
