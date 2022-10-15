@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (ICCV2019) Unsupervised Out-of-Distribution Detection by Maximum Classifier Discrepancy
-category: code
+category: paper
 use_math: True
 ---
 
