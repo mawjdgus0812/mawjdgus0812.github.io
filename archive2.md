@@ -14,7 +14,7 @@ Browse all posts by month and year.
   <ul>
     {% for post in yearMonth.items %}
       {%-if post.category == "code"-%}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {%-endif-%}
     {% endfor %}
   </ul>
